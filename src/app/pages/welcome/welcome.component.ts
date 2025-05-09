@@ -65,11 +65,11 @@ export class WelcomeComponent implements AfterViewInit {
       this.chartInstance = new Chart(ctx, {
         type: 'bar',
         data: {
-          labels: ['Room 1', 'Room 2', 'Room 3', 'Room 4', 'Room 5'],
+          labels: ['Room 1', 'Room 2', 'Room 3', 'Room 4', 'Room 5', 'Room 6', 'Room 7', 'Room 8', 'Room 9', 'Room 10', 'Room 11'],
           datasets: [
             {
               label: 'Usage Hours',
-              data: [12, 19, 3, 5, 2],
+              data: [12, 19, 3, 5, 2, 3, 8, 7, 6, 4, 9, 11], // Example data for usage hours
               backgroundColor: [
                 'rgba(46, 111, 64, 0.8)', // Matching green for Room 1
                 'rgba(92, 237, 115, 0.8)', // Light green for Room 2
